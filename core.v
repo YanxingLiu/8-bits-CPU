@@ -133,7 +133,7 @@ always @(posedge clk)
     S3:
     begin
      //第四级 MEMWB
-     if ((EXMEMop == ADD)||(MEMWBop ==SUB)) MEMWBValue <= EXMEMALUOut;
+     if ((EXMEMop == ADD)||(EXMEMop  ==SUB)) MEMWBValue <= EXMEMALUOut;
      else if((EXMEMop == LOAD_A)||(EXMEMop ==LOAD_B))  MEMWBValue <= RAM[RAM_addr];
      else if (EXMEMop == STORE_A)   RAM[RAM_addr]<= regs[0];
      else if(EXMEMop == JUMP)  PC<= RAM_addr;
