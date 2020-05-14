@@ -1,3 +1,3 @@
 # 8bit-CPU
-An 8bit-cpu based on verilog
-详细介绍见http://liuyanxing.tech/index.php/2020/05/14/8bit-cpu/
+# Architecture and Verilog Implementation of 8-bits CPU
+More details:http://liuyanxing.tech/index.php/2020/05/14/8-bits-cpu/
